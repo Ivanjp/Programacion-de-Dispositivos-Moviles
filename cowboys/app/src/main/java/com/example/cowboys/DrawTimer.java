@@ -18,7 +18,7 @@ public class DrawTimer implements Runnable{
         byte counter = 0;
         while (counter < COUNT_TO){
             try {
-                Thread.sleep(millis: 1000);
+                Thread.sleep(1000);
             }catch (InterruptedException e){
 
             }
